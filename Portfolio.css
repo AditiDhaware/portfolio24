@@ -1,0 +1,240 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+ background-color: black;
+}
+.body{
+    background-color: black;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(10, 2, 2);
+}
+nav{
+    display: flex;
+    width: 80;
+    margin: auto;
+    margin-right: 100px;
+    padding: 20px 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: white;
+}
+
+
+#HOME{
+    padding: 50px;
+    background-color:black;
+}
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.HOME-col-1{
+    flex-basis: 45%;
+    padding: 2px 2px;
+    text-decoration: none;
+    font-weight: bold;
+    color: azure;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 10px;
+    color: blue;
+    width: 50%;
+}
+.HOME-col-1 img{
+    height: 80%;
+    width: 70%;
+    border-radius: 15px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: .4s ease;
+    position: relative;
+
+}
+.HOME-col-1 h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+.HOME-col-1 h1:nth-of-type(2)
+{
+    margin-bottom:30px ;
+
+}
+.HOME-col-1 p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+span{
+    color:  blue;
+}
+.HOME-col-1 a{
+    background-color: blue;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.Home-contact a
+{
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     width: 40px;
+     height: 40px;
+     background: transparent;
+     border: 2px solid blue;
+     border-radius: 50%;
+     color: blue;
+     text-decoration: none;
+     margin: 30px 15px 30px 0;
+    
+}
+.Home-contact a:hover
+{
+    background: blue;
+    color: white;
+    box-shadow: 0 0 20px blue;
+}
+
+
+#ABOUT{
+    padding: 80px;
+    background-color:black;
+    margin-bottom: 200px;
+   
+}
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ABOUT-col-1 {
+    flex-basis: 45%;
+    padding: 2px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: azure;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 10px;
+    color: blue;
+    width: 50%;
+}
+.ABOUT-col-1 img{
+    height: auto;
+    width: 60%;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border: round;
+}
+.ABOUT-col-1 p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+#SKILLS
+{
+
+}
+
+.image h1{
+    color: blue;
+    margin-top: 40px;
+}
+.image img 
+{
+ width: 140px;
+ height: 140px;
+ margin: 70px;
+ margin-left: 150px;
+}
+
+
+header {
+    background: black;
+    color: blue;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+header h1 {
+    float: left;
+    margin: 20px 0;
+    margin-top: 50px;
+}
+
+main {
+    padding: 20px 0;
+}
+
+form {
+    background: hsl(0, 4%, 5%);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    color: white;
+    margin: 15px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #5e57c0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: white;
+}
+
+form button {
+    background: blue;
+    color: #edf0f3;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background:rgb(16, 16, 133);
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
